@@ -1,0 +1,230 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; 
+}
+
+/*-----------------------------Media Screens-----------------------------*/
+@media (min-width: 600px)and (max-width:750px)    {
+  h2{
+    font-size: 1.3rem !important;
+  }
+  h4{
+    font-size: 1rem !important;
+  }
+  h6{
+    font-size: 0.9rem !important;
+  }
+  p{
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width:600px)    {
+  h2{
+    font-size: 1.3rem !important;
+  }
+  h4{
+    font-size: 0.9rem !important;
+  }
+  h6{
+    font-size: 0.8rem !important;
+  }
+  p{
+    font-size: 0.7rem;
+  }
+
+  
+}
+@media screen and (max-width:1000px){
+  #header{
+    height: 80vh !important;
+  }
+  h1{
+    font-size: 1.5rem !important;
+  }
+  .typed-text{
+    font-size: 1.1rem !important;
+  }
+.header-image{
+  visibility: hidden;
+}}
+
+/*------------------------Root-------------------------*/
+.navbar-extended{
+  background: #191E34;
+}
+
+
+.navbar .navbar-collapse {
+  text-align: center;
+  font-weight: 600;
+}
+.navbar-extended  ul  li  a:hover{
+  border-top: 0.1875rem solid #EFC139 !important;
+}
+
+/*---------------------------header-----------------------*/
+#header{
+  height: 100vh;
+  width: 100%;
+  background: #191E34;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-image{
+  position: absolute;
+  bottom: 0;
+  right: 5%;
+  z-index: 2;
+  height: 100%;
+}
+.typed-text{
+  color: #EFC139;
+}
+
+.info{ 
+  text-align: center;
+  z-index: 2;
+}
+.main-info{
+  color:white;
+  font-size: 2rem;
+}
+.particles{
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 110vh;
+  width: 100%;
+  color: #EFC139;
+  z-index: 1;
+}
+.btn-header{
+  background: #EFC139;
+  padding: 10px;
+  border-radius: 30px;
+  border-color: #EFC139;
+  color: white;
+  font-weight: 600;
+}
+.typed-text{
+  font-size: 1.5rem;
+  line-height: 4rem;
+}
+
+/*------------------About-me----------------------------*/
+.experience-card{
+  border: 10px solid #EFC139 !important;
+  background: #191E34 !important;
+  color: white;
+}
+#about-me{
+  text-align: center;
+}
+#about-me, h3, h2, p{
+color: #191E34;
+margin: 4%;
+}
+.experience-card:hover{
+  transform: scale(1.1);
+}
+/*------------------Portfolio----------------------------*/
+#portfolio{
+  height: auto;
+  padding: 5%;
+  text-align: center;
+  background: #EFC139;
+}
+.portfolio-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center!important;
+}
+.portfolio-card p{
+  font-size: 0.8rem !important;
+}
+.portfolio-heading{
+  color: #191E34;
+}
+
+.image-div{
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  border: 10px solid #191E34;;
+}
+.portfolio-image{
+  max-width: 280px; 
+  transition: all 12s ease;
+}
+.image-div:hover .portfolio-image{
+  transform: translateY(-80%);
+}
+
+/*------------------------------expectations-----------------*/
+#expectations{
+  padding: 3%;
+  padding-top: 5%;
+  text-align: center;
+}
+.expectations-heading-part{
+  color: #191E34 !important;
+}
+.expectations-wrapper{
+  display: flex;
+  background: #191E34;
+}
+.expectations-card{
+  height: auto;
+  flex-basis: 50%;
+  border: #191E34 4px solid
+}
+.icons{
+  color: #191E34;
+  cursor: pointer;
+}
+.accordian{
+  background:#EFC139;
+  margin: 2%;
+}
+.accordian h4{
+  color: white;
+}
+.accordian p{
+  color: #191E34;
+}
+/*------------------------------footer-----------------*/
+#footer{
+  background: #191E34;
+  height: 20vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*----------------------popup--------------------*/
+.popup-up{
+  height: 100%; 
+  backdrop-filter: blur(5px);
+  color: white;
+  display:flex !important; 
+  justify-content:center !important; 
+  align-items: center !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 25;
+  width: 100%;
+}
+.popup{
+background: #EFC139;
+width: 500px;
+padding:2%;
+overflow: hidden;
+}
+
+a:link{
+text-decoration: none;
+}
